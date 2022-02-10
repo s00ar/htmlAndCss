@@ -1,0 +1,151 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 7vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 1.2vw;
+}
+
+p,
+a {
+    font-size: 1.4vw;
+    text-decoration: none;
+}
+
+
+/* div {
+    display: inline-block;
+}
+ */
+
+.lightBlue {
+    background-color: #CDE6F5;
+}
+
+.medBlue {
+    background-color: #87919E;
+}
+
+.darkBlue {
+    background-color: #707078;
+}
+
+.nav {
+    background-color: #CDE6F5;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav_links {
+    float: left;
+    margin-bottom: 0px;
+    margin-top: 0.2rem;
+    align-content: center;
+}
+
+.nav_links_element {
+    height: 2vw;
+}
+
+.nav_links_p_element {
+    margin-right: 10vh;
+}
+
+.titulo {
+    margin-bottom: 0px;
+    margin-top: 0rem;
+    width: 80%;
+}
+
+.titulo_retrato {
+    display: inline-block;
+    margin-left: 0vh;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-top: 10%;
+    max-width: fit-content;
+    /* 
+    max-width: fit-content;
+    max-height: fit-content; */
+}
+
+.titulo_texto {
+    display: inline-block;
+    margin-top: 3rem;
+    text-shadow: 4px 4px #CDE6F5;
+    text-align: center;
+    color: #707078;
+    font-size: 7vw;
+}
+
+.mainSection {
+    display: flexbox;
+    position: absolute;
+    margin-top: 0rem;
+    margin-left: 30%;
+    margin-right: 0%;
+}
+
+#INICIO {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("assets/images/codingcoffee.jpg") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.contacto {
+    margin-top: 2vw;
+}
+
+.contacto_elemento {
+    height: 1.8rem;
+}
+
+.contacto_imagen {
+    max-width: 16%;
+}
+
+.aside {
+    display: flexbox;
+    position: absolute;
+    margin-right: 80%;
+    margin-left: 0%;
+    margin-top: 0px;
+    width: 29%;
+    z-index: -1;
+}
+
+.contacto_texto {
+    margin-top: 2vw;
+}
+
+.certificacion {
+    float: left;
+    height: 6vw;
+    margin-top: -10%;
+    margin-left: 90%;
+}
+
+.contacto_imagen {
+    height: 5%;
+    width: 15%;
+}
+
+
+/* 
+.main_container {
+    width: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("assets/images/coding.jpg") no-repeat center center fixed;
+    background-size: cover;
+} */

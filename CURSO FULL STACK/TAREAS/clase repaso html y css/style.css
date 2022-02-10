@@ -1,0 +1,10 @@
+.items {
+    background-color: rgb(155, 255, 141);
+    border: 3px blue;
+    padding: 20px;
+    text-align: center;
+}
+
+.gridContainer {
+    background-color: aquamarine;
+}

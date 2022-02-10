@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0 px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: rgb(255, 0, 179);
+    display: flex;
+}
+
+.box-1{
+    width: 120px;
+    height:120px;
+    background-color: rgb(185, 255, 127);
+    border: 2px solid rgb(0, 0, 0);
+    margin: auto auto;
+}
